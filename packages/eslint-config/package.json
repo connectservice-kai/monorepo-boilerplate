@@ -1,12 +1,20 @@
 {
   "name": "@repo/eslint-config",
   "version": "0.0.0",
-  "main": "index.js",
+  "type": "module",
+  "files": [
+    "react.js"
+  ],
   "license": "MIT",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
-    "eslint-config-prettier": "^9.1.0"
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.7.0"
   },
   "publishConfig": {
     "access": "public"
