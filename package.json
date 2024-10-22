@@ -11,5 +11,5 @@
     "turbo": "^2.2.3"
   },
   "packageManager": "pnpm@8.15.6",
-  "name": "with-vite"
+  "name": "turborepo-vite-react-eslint-typescript-tailwindcss"
 }
