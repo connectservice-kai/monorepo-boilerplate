@@ -3,6 +3,7 @@
 # XXXX
 
 - [x] turborepo
+- [x] pnpm
 - [x] vite
 - [x] react
 - [x] typescript
