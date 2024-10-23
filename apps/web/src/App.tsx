@@ -1,9 +1,7 @@
 import { useState } from "react";
-import { Input } from "@repo/ui/input";
-import { Button } from "@repo/ui/button";
-import viteLogo from "/vite.svg";
+import { Button } from "@repo/ui/components";
 import reactLogo from "./assets/react.svg";
-import "./App.css";
+import viteLogo from "/vite.svg";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,8 +9,11 @@ function App() {
   return (
     <>
       <div>
-        <Button />
-        <Input />
+        <Button>shadcn Button</Button>
+        <button className="animate-bounce fill-mode-none bg-blue-500">
+          Button A
+        </button>
+
         <code>{import.meta.env.VITE_API_URL}</code>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

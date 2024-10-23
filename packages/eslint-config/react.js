@@ -30,7 +30,9 @@ export const reactConfig = [
     },
     settings: {
       "import/resolver": {
-        typescript: true,
+        typescript: {
+          directory: "./tsconfig.json",
+        },
         node: true,
       },
     },
